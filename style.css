@@ -60,14 +60,14 @@ nav svg:hover: {
 }
 
 .container-center{
-    width: 55%;
+    width: 50%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
 .container-center input{
-    width: 70%;
+    width: 80%;
     height: 40px;
     border: 1px solid #EDEDED;
     outline: none;
