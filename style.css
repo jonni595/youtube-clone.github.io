@@ -122,50 +122,51 @@ nav svg:hover {
 }
 
 .cards-videos {
-    transition-delay: .2s;
-    transition: ease-out .5s;
+  transition-delay: 0.2s;
+  transition: ease-out 0.5s;
 }
 
 .cards-videos:hover {
   transform: scale(1.1) translateY(20px);
-  transition: ease-in .5s;
+  transition: ease-in 0.5s;
   background-color: #eee;
 }
 
 .cards-image {
-    width: 280px;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  width: 280px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .cards-image img {
-    width: inherit;
-    height: 200px;
+  width: inherit;
+  height: 200px;
 }
 
 .banner-description {
-    height: 70px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding-left: 15px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 15px;
 }
 
-.banner-description h4, .banner-description p{
-    margin: 0;
+.banner-description h4,
+.banner-description p {
+  margin: 0;
 }
 
 .banner-description h4 {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .banner-description p {
-    font-weight: bold;
-    font-size: 1.3rem;
+  font-weight: bold;
+  font-size: 1.3rem;
 }
 
 .banner-description span {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
