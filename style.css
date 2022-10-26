@@ -107,3 +107,21 @@ nav svg {
 nav svg:hover {
     background-color: rgba(144,144,144, .1);
 }
+
+
+.cards-container{
+    max-width: 1300px;
+    margin-left: 75px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(4, 280px);
+    grid-template-rows: repeat(2, auto);
+    gap: 40px;
+    
+    padding: 0 15px;
+    
+}
+
+.cards-videos {
+    background-color: #eee;
+}
